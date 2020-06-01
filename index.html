@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W3.CSS Tutorial</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 10px;
+            justify-content: center;
+        }
+
+        .box {
+            border: 1px solid gray;
+            border-radius: 10px;
+            width: 500px;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        @media screen and (max-width: 700px) {
+            .box {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="w3-center">Made Easy W3.CSS</h1>
+    <div class="container">
+
+        <!-- Container  -->
+        <div class="box">
+            <h1 class="w3-center">Container</h1>
+            <div class="w3-container">
+                The w3-container class adds a 16px left and right padding to any HTML element. No padding to top and bottom.
+            </div>
+        </div>
+        
+        <!-- Color  -->
+        <div class="box">
+            <h1 class="w3-center">Color</h1>
+            <div class="w3-container w3-red">
+                w3-red
+            </div>
+            <p></p>
+            <div class="w3-container w3-pink">
+                w3-pink
+            </div>
+            <p></p>
+            <div class="w3-container w3-purple">
+                w3-purple
+            </div>
+            <p></p>
+            <div class="w3-container w3-text-deep-purple w3-border">
+                w3-text-deep-purple
+            </div>
+            <p></p>
+            <div class="w3-container w3-text-indigo w3-hover-text-orange w3-border">
+                w3-hover-text-orange | w3-text-indigo
+            </div>
+            <p></p>
+            <div class="w3-container w3-hover-yellow w3-green">
+                w3-hover-yellow
+            </div>
+        </div>
+
+        <!-- Panels  -->
+        <div class="box">
+            <h1 class="w3-center">Panels</h1>
+            <div class="w3-panel w3-red">
+                The w3-panel class adds 
+                <p>16px top and bottom margin</p>
+                <p>16px left and right padding</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde pariatur hic incidunt, ut optio sit deleniti dignissimos molestias iste maiores?</p>
+            </div>
+            <p></p>
+            <div class="w3-panel w3-pale-green w3-leftbar">
+                this is panel with a left bar class--> .w3-leftbar
+            </div>
+        </div>
+
+        <!-- Borders  -->
+        <div class="box">
+            <h1 class="w3-center">Border</h1>
+            <div class="w3-panel w3-pale-green w3-border">
+                w3-border
+            </div>
+            <div class="w3-panel w3-pale-green w3-border-top">
+                w3-border-top
+            </div>
+            <div class="w3-panel w3-pale-green w3-border-right">
+                w3-border-right
+            </div>
+            <div class="w3-panel w3-pale-green w3-border-bottom w3-border-blue">
+                w3-border-blue
+            </div>
+            <div class="w3-panel w3-pale-green w3-border w3-round-large w3-border-red">
+                .w3-round-small | .w3-round | .w3-round-large | .w3-round-xlarge | .w3-round-xxlarge
+            </div>
+            <div class="w3-panel w3-leftbar w3-topbar w3-green">
+                Thick border--> w3-leftbar, w3-rightbar, w3-topbar, w3-bottombar
+            </div>
+            <div class="w3-panel w3-sand w3-border w3-hover-border-black w3-border-red">
+                .w3-border-green | .w3-hover-border-red 
+            </div>
+            <div class="w3-panel w3-border w3-topbar w3-border-white w3-hover-border-red">
+                .w3-border-white | .w3-hover-border-red | .w3-border 
+            </div>
+        </div>
+        <!-- box template  -->
+        <div class="box">
+            <h1 class="w3-center">Heading</h1>
+            <div class="w3-container">
+                Content
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
